@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@400;600&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+
+body{
+    background: #150E28;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 63px 128px 25px;
+    border-bottom: 1px solid #FFFFFF2E;
+}
+
+.logo-menu{
+    display: flex;
+}
+
+.logo-menu .logo h1{
+    font-family: Clash Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44.28px;
+    text-align: left;
+    color: #fff;    
+}
+
+.logo-menu .logo span{
+    font-family: Clash Display;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44.28px;
+    text-align: left;    
+    color:#D434FE;
+}
+
+.menus{
+    display: none;
+}
+
+#menu{
+    display: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.ul-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 121px;
+}
+
+.ul-btn ul{
+    display: flex;
+    gap: 56px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;  
+}
+
+.ul-btn ul li{
+    list-style: none;
+}
+
+.ul-btn .register button{
+    border: none;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    color: #fff;
+    padding: 16px 52px;
+    font-size: 16px;
+    font-weight: 400;  
+}
+
+
+/* ========== RESPONSIVENES START ========== */
+@media (max-width: 930px) {
+    nav{
+        position: relative;
+        padding: 34px 48px 15px;
+
+    }
+
+    .logo-menu{
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menus{
+        display: block;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    .ul-btn{
+        display: none;
+        position: absolute;
+        background: #150E28;
+        width: 100%;
+        top: 10px;
+        left: 0;
+        padding: 0 47px;
+    }
+    
+    .ul-btn.show {
+        display: block;
+    }
+
+    .ul-btn ul{
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-top: 119px;
+        margin-bottom: 29px;
+    }
+
+    
+    .close{
+        border: 1px solid linear-gradient(180deg, #903AFF 0%, #FF26B9 100%); 
+        border-radius: 50px;     
+        width: 50px;
+        height: 48px;
+        margin: 47px 0;
+        position: absolute;
+        top: -20px;
+        right: 0;
+    }
+
+}
+
+
+@media(max-width:768px){
+
+}
+
+
+@media (max-width: 475px) {
+    
+}
+/* ========== RESPONSIVENES END ========== */
