@@ -88,6 +88,10 @@ nav{
 }
 
 /* hero section start */
+.hero{
+    border-bottom: 1px solid #FFFFFF2E;
+}
+
 .writting{
     padding-right: 55px;
     display: flex;
@@ -97,7 +101,6 @@ nav{
     font-style: italic;
     font-weight: 700;
     line-height: 43.88px;
-    text-align: left;
     margin: 32px 0 0;
 }
 
@@ -123,8 +126,6 @@ nav{
     display: flex;
     gap: 0;
     padding-left: 128px;
-    overflow: hidden;
-    border-bottom: 1px solid #FFFFFF2E;
 }
 
 .hero-text-img h1{
@@ -146,14 +147,11 @@ nav{
 }
 
 .tex-h1{
-    position: relative;
-    padding-top: 152px;
+    padding-top: 10px;
 }
 
 .creative{
-    position: absolute;
-    top: 6rem;
-    right: 9rem;
+margin-left: 23rem;
 }
 
 .tex-h1 img{
@@ -189,19 +187,18 @@ nav{
 }
 
 .hero-img{
-    margin-right: 30px;
-    padding-right: 60rem;
     width: 828px;
-    height: 715px;
+    height: 615px;
     filter: grayscale(100%);
 } 
 
 .hero-img img{
-    position: absolute;
+    width: 628px;
+    height: 615px;
+    object-fit: cover;
     left: -170px;
     bottom: -70px;
 } 
-
 
 /* hero section end */
 
@@ -355,18 +352,18 @@ nav{
         padding-top: 119px;
         margin-bottom: 70px;
         background: #150E28;
+        font-size: 30px;
     }
 
-    
     .close{
         background: transparent;
         color: #fff;
-        font-size: 16px;
+        font-size: 26px;
         font-weight: 600;
         border: 1px solid linear-gradient(180deg, #903AFF 0%, #FF26B9 100%); 
         border-radius: 50px;     
-        width: 30px;
-        height: 28px;
+        width: 40px;
+        height: 38px;
         margin: 47px 0;
         position: absolute;
         top: -20px;
@@ -379,8 +376,13 @@ nav{
         padding-left: 8px;
     }
 
-    .hero-text-img h1{
-        font-size: 72px;    
+    .tex-h1{
+        padding-top: 44px;
+    }
+    
+    
+    .hero-text-img span{
+        font-size: 72px;
     }
     
     .hero-text-img span{
@@ -393,7 +395,8 @@ nav{
     }
 
     .text-p p{
-        font-size: px;
+        width: 580px;
+        font-size: 22px;
     }
 
 
@@ -403,10 +406,10 @@ nav{
     }
 
     .hero-img img{
-        width: 619px;
-        height: 567px;
-        left: 90px;
-        bottom: -70px;
+        width: 730px;
+        height: 700px;
+        margin-top: 30px;
+        object-fit: cover;
     } 
     
     /* hero section end */
@@ -415,16 +418,102 @@ nav{
 
 
 @media(max-width:768px){
-    .hero-text-img h1{
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 39.36px;
+
+}
+
+
+@media (max-width: 475px) {
+    .ul-btn ul{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.78px;
+        letter-spacing: -1px;
+        text-align: left;           
+    }
+
+    .close{
+        width: 30px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+        /* hero section start */
+        .writting{
+            padding:0 48px;
+            justify-content: center;
+            font-size: 16px;
+            line-height: 19.5px;            
+        }
+
+        marquee{
+            width: 100%;
+        }
+
+        .curved-line {
+            width: 100px;
+            height: 20px;
+            border-top: 3px solid #ff00ff; 
+            border-radius: 60%;
+            cursor: pointer;
+        }
+
+        .hero-text-img{
+            display: block;
+            padding-left: 8;
+        }
+    
+        .text{
+            padding: 0 57px;
+        }
+    
+        .creative{
+            margin-left: 13rem;
+        }   
+        
+        .tex-h1{
+            width: 100%;
+            padding-top: 20px;
+        }
+
+        .text-p{
+            width: 100%;
+        }
+    
+        .text-p p{
+            width: 270px;
+            font-size: 13px;
+            line-height: 21.58px;   
+            margin: 10px 0 30px;         
+        }
+
+        .text-p .register{
+            margin-left: 40px;
+        }
+
+        .first-h1{
+            padding-left: 20px;
+        }
+    
+        .hero-text-img h1{
+            align-items: center;
+            font-size: 40px;
+            line-height: 49.36px;
+        }
+
+        .hero-text-img span{
+            font-size: 32px;
+        line-height: 49.36px;
     }
     
-    .hero-text-img span{
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 39.36px;
+    .tex-h1 img{
+        width: 18px;
+        height: 26px;  
+    }
+
+    .text{
+        padding: 0 48px;
+            line-height: 39.36px;
         text-align: left;        
     }
     
@@ -435,24 +524,24 @@ nav{
 
     .text{
         padding: 0 48px;
-    }
+        }
 
-    .hero-img{
-        width: 419.67px;
-        height: 367.46px;
-    }
-
-    .hero-img img{
-        width: 419.67px;
-        height: 367.46px;
-        left: 90px;
-        bottom: -70px;
-    } 
-
-}
-
-
-@media (max-width: 475px) {
+        .clock{
+            margin:30px 0;
+        }
+    
+        .hero-img{
+            width: 359px;
+            height: 374px;
+        }
+    
+        .hero-img img{
+            width: 359px;
+            height: 374px;
+            margin-top: 0;
+        } 
+        
+        /* hero section end */
     
 }
 /* ========== RESPONSIVENES END ========== */
