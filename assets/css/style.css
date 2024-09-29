@@ -90,6 +90,7 @@ nav{
 /* hero section start */
 .hero{
     border-bottom: 1px solid #FFFFFF2E;
+    margin-bottom: 62px;
 }
 
 .writting{
@@ -401,14 +402,13 @@ margin-left: 23rem;
 
 
     .hero-img{
-        width: 419.67px;
-        height: 367.46px;
+        width: 730px;
+        height: 700px;
     }
 
     .hero-img img{
         width: 730px;
         height: 700px;
-        margin-top: 30px;
         object-fit: cover;
     } 
     
