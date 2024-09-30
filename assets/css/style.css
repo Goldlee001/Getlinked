@@ -956,12 +956,14 @@ footer{
 }
 
 #form{
+    width: 100%;
     margin-top: 60px;
     padding: 28px;
 }
 
 #form h1{
     font-size: 16px;
+    text-align: center;
 }
 /* contact page end */
 
