@@ -9,6 +9,64 @@
 }
 
 
+/* ==== ICONS START */
+.star i{
+    color: #fff;
+    position: relative;
+    top: 68px;
+    left: 10rem;
+}
+
+.creative i,
+.clock i{
+    color: #858386;
+}
+
+.creative i{
+    position: relative;
+    top: -40px;
+    right: -90px;
+}
+
+.clock i{
+    position: relative;
+    top: -30px;
+    right: 0;
+}
+
+
+.shining-star {
+    font-size: 10px;
+    animation: shine 2s infinite; /* Infinite shine animation */
+    text-shadow: 0 0 10px #D434FE,
+                 0 0 20px #FE34B9,
+                 0 0 30px #ff00ff;
+}
+
+@keyframes shine {
+    0% {
+        text-shadow: 0 0 10px #ff00ff,
+                     0 0 20px #FE34B9,
+                     0 0 30px #ff00ff;
+    }
+    50% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1),
+                     0 0 30px #fae20e,
+                     0 0 40px rgba(255, 255, 255, 0.6);
+        transform: scale(1.5); /* Slightly increases size during shine */
+    }
+    100% {
+        text-shadow: 0 0 10px #ff00ff,
+                     0 0 20px #FE34B9,
+                     0 0 30px #ff00ff;
+        transform: scale(1.1); /* Return to original size */
+    }
+}
+
+
+/* ==== ICONS END */
+
+
 body{
     background: #150E28;
 }
@@ -152,6 +210,11 @@ nav{
 
 .creative{
 margin-left: 28rem;
+}
+
+.creative img{
+    position: relative;
+    bottom: -40px;
 }
 
 .tex-h1 img{
@@ -450,13 +513,14 @@ margin-left: 28rem;
 
 
     .hero-img{
+        margin-top: 40px;
         width: 755px;
-        height: 574px;
+        height: 660px;
     }
 
     .hero-img img{
         width: 755px;
-        height: 574px;
+        height: 660px;
         margin-top: 0;
         object-fit: cover;
         left: -10px;
@@ -541,6 +605,22 @@ margin-left: 28rem;
     }
 
         /* hero section start */
+/* === icons start === */
+.star i{
+    top: 6rem;
+    left: 5rem;
+}
+
+.creative img{
+    bottom: -30px;
+}
+
+.creative i{
+    top: -10px;
+    right: -20px;
+}
+/* === icons end === */
+
         .writting{
             padding:0 48px;
             justify-content: center;
@@ -638,7 +718,7 @@ margin-left: 28rem;
     }
     
     .hero-img img{
-            width: 360px;
+            width: 370px;
             height: 374px;
             margin-top: 0;
             left: -10px;
