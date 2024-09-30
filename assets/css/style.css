@@ -90,7 +90,6 @@ nav{
 /* hero section start */
 .hero{
     border-bottom: 1px solid #FFFFFF2E;
-    margin-bottom: 62px;
 }
 
 .writting{
@@ -131,7 +130,7 @@ nav{
 
 .hero-text-img h1{
     display: flex;
-    font-family: Clash Display;
+    /* font-family: Clash Display; */
     font-size: 70px;
     font-weight: 700;
     line-height: 98.4px;
@@ -139,7 +138,7 @@ nav{
 }
 
 .hero-text-img span{
-    font-family: Clash Display;
+    /* font-family: Clash Display; */
     font-size: 70px;
     font-weight: 700;
     line-height: 98.4px;
@@ -152,12 +151,13 @@ nav{
 }
 
 .creative{
-margin-left: 23rem;
+margin-left: 28rem;
 }
 
 .tex-h1 img{
     width: 86px;
     height: 86px;
+    z-index: 10;
 }
 
 .text-p{
@@ -189,19 +189,63 @@ margin-left: 23rem;
 
 .hero-img{
     width: 828px;
-    height: 615px;
+    height: 715px;
     filter: grayscale(100%);
 } 
 
 .hero-img img{
-    width: 628px;
-    height: 615px;
-    object-fit: cover;
-    left: -170px;
-    bottom: -70px;
+    width: 828px;
+    height: 715px;
+    position: absolute;
+    left: -280px;
+    z-index: 1;
 } 
 
 /* hero section end */
+
+/* the-big-idea start */
+.the-big-idea{
+    width: 100%;
+    display: flex;
+    gap: 106px;
+    align-items: center;
+    padding: 62px 128px ;
+    border-bottom: 1px solid #FFFFFF2E;
+}
+
+.the-big-idea .idea h1{
+    /* font-family: Clash Display; */
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42.56px;
+    color: #fff;
+}
+
+.the-big-idea .idea h1 span{
+    color: #FF26B9;
+}
+
+.the-big-idea .idea p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27.5px;
+    color: #fff;   
+    margin-top: 16px;
+}
+
+.Rules-img {
+    display: flex;
+    gap: 48px;
+    padding: 62 128px 102px;
+}
+
+
+.Rules-img p{
+    width: 500px;
+}
+
+/* the-big-idea end */
 
 
 /* contact page start*/
@@ -212,7 +256,7 @@ margin-left: 23rem;
 }
 
 .get-form .get h1{
-    font-family: Clash Display;
+    /* font-family: Clash Display; */
     font-size: 32px;
     font-weight: 600;    
     color: #D434FE;
@@ -274,6 +318,10 @@ margin-left: 23rem;
     outline: none;
     color: #fff;
     border: 1px solid #FFFFFF;
+}
+
+#form input::placeholder{
+    color: #fff;
 }
 
 #form .form-details textarea{
@@ -339,6 +387,7 @@ margin-left: 23rem;
         top: 10px;
         left: 0;
         padding: 0 47px;
+        z-index: 100;
     }
     
     .ul-btn.show {
@@ -361,7 +410,6 @@ margin-left: 23rem;
         color: #fff;
         font-size: 26px;
         font-weight: 600;
-        border: 1px solid linear-gradient(180deg, #903AFF 0%, #FF26B9 100%); 
         border-radius: 50px;     
         width: 40px;
         height: 38px;
@@ -370,7 +418,7 @@ margin-left: 23rem;
         top: -20px;
         right: 0;
     }
-
+    
     /* hero section start */
     .hero-text-img{
         display: block;
@@ -402,17 +450,71 @@ margin-left: 23rem;
 
 
     .hero-img{
-        width: 730px;
-        height: 700px;
+        width: 755px;
+        height: 574px;
     }
 
     .hero-img img{
-        width: 730px;
-        height: 700px;
+        width: 755px;
+        height: 574px;
+        margin-top: 0;
         object-fit: cover;
+        left: -10px;
     } 
     
     /* hero section end */
+
+            /* the-big-idea start */
+.the-big-idea{
+    gap: 60px;
+    align-items: center;
+    padding: 62px 48px ;
+}
+
+.the-big-idea img{
+    width: 260px;
+    height: 257px;
+}
+
+.the-big-idea .idea h1{
+    font-size: 25px;
+}
+
+.the-big-idea .idea p{
+    font-size: 16px;
+    line-height: 27.5px;
+    margin-top: 16px;
+}
+
+.Rules-img {
+    padding: 62 128px 102px;
+}
+
+
+.Rules-img p{
+    width: 350px;
+    font-size: 16px;
+    line-height: 27.5px; 
+    margin-top: 16px;
+}
+
+/* the-big-idea end */
+
+
+/* contact page start */
+.get-form{
+    padding: 48px;
+    gap: 50px;
+}
+
+.get{
+    width: 400px;
+}
+
+#form{
+    padding: 58px;
+}
+/* contact page end */
 
 }
 
@@ -497,7 +599,7 @@ margin-left: 23rem;
     
         .hero-text-img h1{
             align-items: center;
-            font-size: 40px;
+            font-size: 32px;
             line-height: 49.36px;
         }
 
@@ -524,24 +626,96 @@ margin-left: 23rem;
 
     .text{
         padding: 0 38px;
-        }
+    }
 
-        .clock{
+    .clock{
             margin:30px 0;
-        }
+    }
     
-        .hero-img{
-            width: 359px;
+    .hero-img{
+            width: 345px;
             height: 374px;
-        }
+    }
     
-        .hero-img img{
-            width: 359px;
+    .hero-img img{
+            width: 360px;
             height: 374px;
             margin-top: 0;
-        } 
+            left: -10px;
+    } 
         
-        /* hero section end */
+    /* hero section end */
+
+    /* the-big-idea start */
+.the-big-idea{
+    width: 100%;
+    display: block;
+    gap: 106px;
+    align-items: center;
+    padding: 62px 0 ;
+}
+
+.the-big-idea img{
+    width: 260px;
+    height: 257px;
+    margin: 0 48px;
+}
+
+.the-big-idea .idea h1{
+    font-size: 20px;
+    line-height: 30.56px;
+    padding: 20px 46px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.the-big-idea .idea p{
+    font-size: 16px;
+    line-height: 27.5px;
+    text-align: center;    
+    padding: 0 40px;
+    margin-top: 16px;
+}
+
+.Rules-img {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 48px;
+    padding: 62 128px 102px;
+}
+
+
+.Rules-img p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 27.5px;
+    text-align: center;    
+    padding: 0 40px;
+    margin-top: 16px;
+}
+
+/* the-big-idea end */
+
+/* contact page start */
+.get-form{
+    display: block;
+}
+
+.get{
+    width: 300px;
+}
+
+#form{
+    margin-top: 60px;
+    padding: 28px;
+}
+
+#form h1{
+    font-size: 16px;
+}
+/* contact page end */
+
+
     
 }
 /* ========== RESPONSIVENES END ========== */
