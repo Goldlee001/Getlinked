@@ -63,6 +63,10 @@
     }
 }
 
+.col i{
+    color: #D434FE;
+}
+
 
 /* ==== ICONS END */
 
@@ -343,7 +347,181 @@ margin-left: 28rem;
     margin-top: 55px; 
 } 
 
+.Frequently img{
+    width: 641px;
+    height: 681px;
+    object-fit: cover;
+}
+
+.Frequently p{
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.idea-col .col{
+    display: flex;
+    align-items: center;
+    padding: 13px 0;
+    border-bottom: 1px solid #D434FE;
+}
+
+.idea-col .col p{
+    margin: 0;
+}
+
+
+.Prizes-Rewards .rew-h1-p{
+    width: 500px;
+    padding-left: 8rem;
+}
+
+.the-big .rew-h1-p{
+    display: none;
+}
+
+.Prizes-Rewards{
+    display: flex;
+    padding: 62px 128px ;
+    align-items: center;
+    gap: 30px;
+}
+
+.Prizes-Rewards h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.Prizes-Rewards h1 span{
+    color: #D434FE;
+}
+
+.Prizes-Rewards p{
+    color: #fff;
+}
+
+.Prizes-Rewards img{
+    width: 388px;
+    height: 382px;
+    object-fit: cover;
+}
+
+.Prizes-Rewards .idea p{
+    margin-bottom: 70px;
+}
+
+.rewards img{
+    width: 692px;
+    height: 513px;    
+}
+
 /* the-big-idea end */
+
+/* Timeline start */
+.Timeline{
+    padding: 72px 150px 100px;
+}
+
+.timeline-h1-p{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 91px;
+}
+
+.timeline-h1-p h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42.56px;
+    color: #fff;
+}
+
+.timeline-h1-p p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.14px;
+    text-align: center;
+    color: #fff;    
+}
+
+.detail{
+    display: flex;
+    /* align-items: center; */
+    gap: 90px;
+}
+
+.detail .row{
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-bottom: 5px;
+    gap: 5px;
+}
+
+.detail .row span{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: #D434FE;
+    text-align: right;
+    margin-top: 5rem;
+}
+
+.detail .row .row-p-l{
+    text-align: left;
+}
+
+.detail .row-hp{
+    width: 100px;
+}
+
+.detail .row samp{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.34px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-align: right;
+}
+
+/* all h1-h6 and p start */
+/* .detail .row h1{
+    width: 4px;
+    height: 7rem;
+    background: #D434FE;
+}
+
+.detail .row h2,
+.detail .row h3,
+.detail .row h4,
+.detail .row h5,
+.detail .row h6{
+    width: 4px;
+    height: 6rem;
+    background: #D434FE;
+}
+
+.detail .row p{
+    width: 53px;
+    height: 53px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+} */
+/* all h1-h6 and p end */
+/* Timeline end */
 
 
 /* contact page start*/
@@ -942,6 +1120,61 @@ footer{
 
 .bk-img {
     display: none;
+}
+
+.Frequently .idea{
+    margin-bottom: 40px;
+}
+
+.Frequently p{
+    width: 100%;
+}
+
+.Frequently .col p{
+    text-align: left;
+    width: 100%;
+}
+
+.idea-col .col{
+    margin:0 48px;
+}
+
+.idea-col .col p{
+    padding: 0;
+    margin: 0;
+}
+
+.Prizes-Rewards{
+    display: block;
+    padding: 20px 46px;
+}
+
+.Prizes-Rewards img{
+    width: 281px;
+    height: 252px;    
+    margin-top: 30px;
+}
+
+
+.Prizes-Rewards  .rew-h1-p{
+    display: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 30px;
+}
+
+  #display-none{
+    display: block;
+}
+
+.rewards{
+    margin: 20px 0;
+}
+
+.rewards img{
+    width: 274px;
+    height: 198px;
 }
 
 /* the-big-idea end */
