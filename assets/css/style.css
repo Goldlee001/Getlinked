@@ -155,6 +155,13 @@ left: 38rem;
 
 /* ==== ICONS END */
 
+.register a:hover,
+.read-more button:hover,
+.form-submith button:hover{
+    background: transparent;
+    border: 1px solid #FE34B9;
+}
+
 
 body{
     background: #150E28;
@@ -430,6 +437,7 @@ margin-left: 28rem;
     font-size: 16px;
     font-weight: 400;
     margin-top: 55px; 
+    cursor: pointer;
 } 
 
 
@@ -720,6 +728,7 @@ margin-left: 28rem;
     color: #fff;
     font-size: 16px;
     font-weight: 400;    
+    cursor: pointer;
 }
 
 .form-links{
@@ -1264,7 +1273,7 @@ footer{
     }
     
     .hero-img img{
-            width: 363px;
+            width: 359px;
             height: 374px;
             margin-top: 0;
             left: -10px;
