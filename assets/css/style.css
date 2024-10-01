@@ -885,6 +885,24 @@ footer{
     bottom: 17rem;
 }
 
+.Prizes-Rewards{
+    padding: 62px 48px;
+}
+
+.Prizes-Rewards img{
+    width: 320px;
+    height: 290px;
+}
+.Prizes-Rewards .rew-h1-p{
+    width: 350px;
+    padding: 20px;
+}
+
+.rewards img{
+    width: 320px;
+    height: 220px;
+}
+
 /* the-big-idea end */
 
 
