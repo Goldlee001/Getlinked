@@ -683,6 +683,51 @@ margin-left: 28rem;
 /* Timeline end */
 
 
+/* timeline start */
+
+/* timeline end */
+
+/* partner start */
+.partners-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #191130;
+    padding: 50px 20px;
+  }
+
+  .partner-h1-p{
+    width: 40%;
+    text-align: center;
+  }
+  
+  .partners-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .partners-section p {
+    font-size: 1rem;
+    margin-bottom: 50px;
+    color: #ffffffb3;
+  }
+  
+  .sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: center;
+    max-width: 1000px;
+  }
+
+  .sponsor:hover img {
+    transform: scale(1.1);
+  }
+  
+/* partner end */
+
 /* contact page start*/
 .get-form{
     padding: 140px 208px 115px;
